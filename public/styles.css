@@ -1,0 +1,59 @@
+/* public/styles.css */
+body { 
+  font-family: Arial, sans-serif; 
+  background-color: #f0f8ff; 
+  padding: 20px; 
+}
+h1 { 
+  text-align: center; 
+  color: #333; 
+}
+.groups { 
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.group { 
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 220px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.group h2 { 
+  text-align: center; 
+  color: #555; 
+}
+.name { 
+  list-style: none; 
+  padding: 0; 
+}
+.name li { 
+  padding: 5px 0;
+}
+.drawn { 
+  color: red; 
+  text-decoration: none; 
+}
+.buttons { 
+  text-align: center; 
+  margin-top: 20px; 
+}
+.buttons button { 
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+/* 重置按钮样式：深红背景并带白色边框 */
+.reset-btn {
+  background-color: darkred;
+  color: white;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 10px;
+  cursor: pointer;
+}
